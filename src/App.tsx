@@ -167,14 +167,14 @@ const App: React.FC = () => {
           <ProjectCard
             title='IPAuthenticator'
             description='System created for Minecraft Servers to authenticate operator users using an IPAdress.'
-            image='public/ipauth.png'
+            image='/ipauth.png'
             linkPage='https://www.spigotmc.org/resources/ipauthenticator.82206/' linkSource='https://github.com/ObedMz/IPauthenticator'
             tags={['java', 'linux']}/>
 
         <ProjectCard
             title='Lobby System'
             description='System that balances user traffic on servers, improving their scalability and performance.'
-            image='public/lobbysystem.png'
+            image='/lobbysystem.png'
             linkPage='https://www.spigotmc.org/resources/lobby-system-bungeecord.81668/'
             linkSource='https://github.com/ObedMz/LobbySystem'
             tags={['java', 'mysql']}/>
@@ -182,14 +182,14 @@ const App: React.FC = () => {
           <ProjectCard
             title='Spoticrack - REST API'
             description='Rest API that performs Web Scraping to extrapolate relevant data about artists, music, and albums from the Internet.'
-            image='public/rest.webp'
+            image='/rest.webp'
             linkPage='https://github.com/ObedMz/Spoticrack' linkSource='https://github.com/ObedMz/Spoticrack'
           tags={['javascript', 'express', 'nodejs']}/>
 
           <ProjectCard
             title='Beatify App'
             description='Mobile application to play free music, albums, playlists and artists from the internet for devices Android.'
-            image='public/react.webp'
+            image='/react.webp'
             linkPage='https://github.com/ObedMz/Beatify' linkSource='https://github.com/ObedMz/Beatify'
           tags={['react', 'typescript']}/>
 

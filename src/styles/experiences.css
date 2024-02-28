@@ -1,0 +1,75 @@
+.experience-content {
+    border-left: 1px solid var(--primary);
+    padding-left: 20px;
+}
+.father-content {
+    position: relative;
+}
+
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 400px;
+    margin-left: 20%;
+    justify-content: flex-start;
+}
+.work-title {
+    font-weight: bold;
+}
+p {
+ color: darkgray;    
+}
+.experience-content::before {
+    content: attr(data-year);
+    padding: 4px;
+    line-height: 20px;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0 100%, 0 0);
+    background-color: gray;
+    left: -17%;
+}
+.experience-content::after {
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary);
+    left: -4px;
+    bottom: 89%;
+
+    border-radius: 100px;
+}
+
+.language-container .item {
+    background-color: #282C34;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    && h4 {
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    && img {
+        width: 50%;
+    }
+}
+.language-container {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    gap:5px;
+}

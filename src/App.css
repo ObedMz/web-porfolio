@@ -1,0 +1,36 @@
+.content-section {
+    position: relative;
+    height: auto;
+}
+.content-section section {
+    width: 100%;
+    max-width: 900px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: opacity 1s ease; /* Transición de desvanecimiento */
+}
+
+
+
+@media (max-width: 850px) {
+    /* … */
+    .content-section {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .card {
+        width: 98%;
+    }
+    .card-container { 
+        justify-content: space-around;
+        margin:auto;
+    }
+
+  }
+ 
